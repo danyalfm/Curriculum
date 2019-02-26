@@ -1,0 +1,64 @@
+
+h1{
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3{
+    /*background-color: #3b7b82;*/
+    background-color: #6b9aff;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#img1{
+    margin-right: 300px;
+    margin-left: 630px;
+    margin-top: -90px;
+    width:100px;
+    height:90px;
+}
+
+#div5 {
+    background-color: #357e92;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#div1{
+    margin-left: 550px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#div2{
+    margin-left: 550px;
+    font-family: 'Poppins', sans-serif;
+
+}
+#div3{
+    margin-left: 550px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+hr{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#img2{
+    width:50px;
+    height:50px;
+    margin-left:10px;
+}
+#img3{
+    width:40px;
+    height:40px;
+    margin-left:95px;
+
+}
+
+

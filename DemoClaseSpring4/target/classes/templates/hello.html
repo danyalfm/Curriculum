@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>CURRICULUM</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Roboto+Slab" rel="stylesheet">
+    <link href="../static/hello.css" th:href="@{/hello.css}" rel="stylesheet">
+
+</head>
+<body>
+<div id="div5">
+    <h1 th:text="${hello.nombre} + ${hello.apellidoPaterno} +  ${hello.apellidoMaterno} "></h1>
+    <img src="../static/images/foto.png" th:src="@{/images/foto.png}" id="img1">
+</div>
+<hr size=3 color="Black">
+
+<h3>Datos Personales:</h3>
+<div id="div1">
+    <b><span> Fecha de Nacimiento: </span></b>
+    <div th:text="${hello.fechaNacimiento}"></div>
+    <b><span> Estado Civil: </span></b>
+    <div th:text="${hello.estadoCivil}"></div>
+    <b><span> Correo Electronico: </span></b>
+    <div th:text="${hello.correoE}"></div>
+    <b><span> Telefono: </span></b>
+    <div th:text="${hello.telefono}"></div>
+    <b><span> Direccion: </span></b>
+    <div th:text="${hello.direccion}"></div>
+</div>
+
+<hr size=3 color="Black">
+<h3>Estudios:</h3>
+<div id="div2">
+    <b><span> Preparatoria: </span></b>
+    <div th:text="${hello.prepa}"> </div>
+    <b> <span> Universidad: </span></b>
+    <div th:text="${hello.uni}"> </div>
+    <b><span> Carrera: </span></b>
+    <div th:text="${hello.carrera}"> </div>
+</div>
+
+<hr size=3 color="Black">
+<h3>Idiomas:</h3>
+<div id="div3">
+    <span>Español(Nativo)</span>
+    <img src="../static/images/espanol.png" th:src="@{espanol.png}" id="img2">
+    <div></div>
+    <span>Ingles</span>
+    <img src="../static/images/ingles.jpg" th:src="@{ingles.png}" id="img3">
+</div>
+
+<hr size=3 color="Black">
+
+
+</body>
+</html>
